@@ -1,0 +1,25 @@
+{
+    "name": "plum/inject",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/william-wijaya/gen"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/william-wijaya/reflect"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.6",
+        "plum/gen": "@dev",
+        "plum/reflect": "@dev"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "@stable"
+    },
+    "autoload": {
+        "psr-4": { "Plum\\Inject\\": "" }
+    }
+}
